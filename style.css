@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    height: 5rem;
+    background-color: grey;
+}
+
+main{
+    position: fixed;
+}
+
+@media (min-width: 720px){
+    body{
+        background-color: indigo;
+    }
+}
