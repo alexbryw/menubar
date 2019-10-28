@@ -2,14 +2,27 @@
     margin: 0;
 }
 header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
 }
+
+.top-nav{
+    display: flex;
+}
+
 
 header{
     height: 5rem;
     background-color: grey;
+}
+
+.left-nav button{
+    display: flex;
+}
+
+.middle-nav{
+    display: none;
 }
 
 main{
@@ -17,6 +30,14 @@ main{
 }
 
 @media (min-width: 720px){
+    .left-nav button{
+        display: none;
+    }
+
+    .middle-nav{
+        display: flex;
+    }
+
     body{
         background-color: indigo;
     }
