@@ -6,24 +6,45 @@ header{
     flex-direction: column;
     /*align-items: center;*/
     /*justify-content: space-between;*/
+    height: 4rem;
+    background-color: black;
 }
 
 .top-nav{
     display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-header{
-    height: 5rem;
-    background-color: grey;
-}
-
-.left-nav button{
+.left-nav-container{
     display: flex;
+}
+
+.left-nav-button{
+    align-self: center;
+}
+
+.left-nav-button button{
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.left-nav-text{
+    margin: 0 1rem;
+    align-self: center;
+    color: white;
 }
 
 .middle-nav{
     display: none;
+    color: white;
+}
+
+.right-nav{
+    align-self: center;
+    color: white;
 }
 
 main{
@@ -31,7 +52,14 @@ main{
 }
 
 .drop-down{
-    margin: 50%;
+    /*margin: 50%;*/
+    display: none;
+    color: white;
+    align-self: center;
+}
+
+main h1,p{
+    margin: 0 1.2rem;
 }
 
 @media (min-width: 720px){
@@ -41,6 +69,15 @@ main{
 
     .middle-nav{
         display: flex;
+        align-self: center;
+    }
+
+    .middle-nav h3{
+        margin: 0 0.5rem;
+    }
+
+    .drop-down, .left-nav-button{
+        display: none;
     }
 
     body{
