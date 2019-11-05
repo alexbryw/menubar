@@ -1,4 +1,2 @@
 # menubar
-test1
-test3 desktop
-test4 laptop
+Hamburger menu button that activates a drop-down menu if screen is less than 720px (45em).
