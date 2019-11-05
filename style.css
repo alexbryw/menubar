@@ -56,7 +56,7 @@ main{
     margin: auto;
 }
 
-.center-text-dropdown{
+.center-text-drop-down{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,8 +70,8 @@ main h1,p{
     margin: 0 1.8rem;
 }
 
-/*remove menu button and drop down menu on larger screens.*/
-@media (min-width: 720px){
+/*remove menu button and drop down menu on larger screens from 45em(720px).*/
+@media (min-width: 45em){
     .left-nav button{
         display: none;
     }
